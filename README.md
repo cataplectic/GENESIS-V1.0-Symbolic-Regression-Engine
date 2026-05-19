@@ -30,6 +30,16 @@ Finally, it uses libraries like `sympy` to prune and simplify the winning tree i
 * **Autonomous Constant Optimization:** It doesn't just find the structure of the equation; it mathematically optimizes the coefficients for the lowest possible error.
 * **Parsimony Pressure:** It actively penalizes overly long and complex equations to prevent overfitting and avoid "singularity traps" (like dividing by near-zero values).
 
+🚧 Challenges & Learnings
+Building this wasn't just about writing an algorithm; it was about battling mathematics itself.
+
+During development, while testing thermodynamic data (like Stefan-Boltzmann relationships), I watched the algorithm "cheat" by appending microscopic fractions (like -0.000054 / T) just to squeeze out a 0.001% better R-squared score, which would cause an asymptotic explosion if T ever hit zero. Fighting these edge cases—by implementing protected division and complexity penalties—has been one of the most rewarding engineering challenges of this project.
+
+👨‍💻 About Me
+I'm Yağız Murat Kağan Küpcü, an Electrical-Electronics Engineering student with a deep passion for bridging the gap between heavy AI software and physical hardware. When I'm not designing PCBs or training multi-agent reinforcement learning models, you can probably find me running, boxing, or hunting down the next big challenge in systems engineering.
+
+Feel free to reach out if you want to talk about symbolic regression, embedded AI, or hardware optimization!
+
 ## 🚀 Getting Started
 
 You don't need a supercomputer to run this. Just a standard Python environment.
