@@ -1,0 +1,18 @@
+{
+  "formula": "mul(R, C)",
+  "formula_opt": "mul(R, C)",
+  "formula_sympy": "C*R",
+  "formula_latex": "C R",
+  "r2": 0.999164,
+  "r2_opt": 0.999164,
+  "rmse": 0.006133,
+  "complexity": 3,
+  "seconds": 11.42,
+  "source": "example_data.csv",
+  "target": "tau",
+  "n_samples": 100,
+  "variables": [
+    "R",
+    "C"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "formula": "mul(sqrt(a_AU), a_AU)",
+  "formula_opt": "mul(sqrt(a_AU), a_AU)",
+  "formula_sympy": "a_AU**(3/2)",
+  "formula_latex": "a_{AU}^{\\frac{3}{2}}",
+  "r2": 0.999718,
+  "r2_opt": 0.999718,
+  "rmse": 0.818406,
+  "complexity": 4,
+  "seconds": 18.22,
+  "source": "datasets/planetary_orbits.csv",
+  "target": "T_years",
+  "n_samples": 200,
+  "variables": [
+    "a_AU"
+  ]
+}
